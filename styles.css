@@ -21,7 +21,43 @@ header {
 h1, h2 {
     margin: 10px 0;
 }
+:root {
+    --cor-principal: #571414; /* Vermelho */
+    --cor-secundaria: #ba1616; /* Verde */
+    --cor-fundo: #000000; /* Branco */
+    --cor-texto: #ffffff; /* Preto */
+}
 
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fundo);
+}
 section {
     margin: 20px;
     padding: 15px;
