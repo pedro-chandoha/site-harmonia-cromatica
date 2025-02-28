@@ -1,0 +1,36 @@
+:root {
+    --cor-principal: #FF0000; /* Vermelho */
+    --cor-secundaria: #00FF00; /* Verde */
+    --cor-fundo: #FFFFFF; /* Branco */
+    --cor-texto: #000000; /* Preto */
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid var(--cor-secundaria);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-fundo);
+}
